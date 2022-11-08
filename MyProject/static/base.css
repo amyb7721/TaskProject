@@ -1,0 +1,79 @@
+.nav {
+   text-decoration-line: none; 
+   text-decoration: none;
+   
+}
+
+button {
+    background-color:lightgray;
+    margin-right: 1ch;
+    box-shadow:4px, 6px;
+    border-color: blueviolet;
+    border-radius: 30%;
+    
+    
+}
+
+a {
+    text-decoration-line: none;
+    text-decoration: none;
+    color: blueviolet;
+}
+
+body {
+    background-color:darkgrey
+}
+
+
+.addForm {
+    
+  padding:10px;
+  margin-bottom: 10%;
+  box-shadow:4px 4px 4px 4px; 
+  width: 40%; 
+  background-color: orchid;
+}
+
+.delForm{
+    padding:10px;
+    margin-bottom: 10%;
+    box-shadow:4px 4px 4px 4px; 
+    width: 50%; 
+    background-color: orchid;
+}
+
+.regForm{
+    padding:10px;
+    margin-bottom: 10%;
+    box-shadow:4px 4px 4px 4px; 
+    width: 40%; 
+    background-color: orchid;
+    border-radius: 5%;
+    margin-top: 3%;
+}
+
+.logForm {
+    padding:15px;
+    margin-bottom: 10%;
+    box-shadow:4px 4px 4px 4px; 
+    width: 55%; 
+    background-color: orchid;
+    margin-top: 4%;
+    flex: 20%;
+}
+
+li {
+    font-size: larger;
+    font-family: monospace;
+}
+
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+h3 {
+    font-family: sans-serif;
+    font-style: oblique;
+}

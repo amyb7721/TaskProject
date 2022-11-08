@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block body %}
+
+    
+    <h1>Here is a list of all your task!</h1>
+        <ul>
+            {% for t in task %} 
+            <li>{{t}}</li>
+            {% endfor %} 
+        </ul>
+    
+{% endblock %}

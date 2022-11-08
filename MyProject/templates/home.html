@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block body %}
+    <!--<div class="jumbotron">
+       {% if current_user.is_authenticated %} 
+       <p>{{current_user.username}}</p> 
+       {% else %} 
+       <p>Please login or register</p>
+       {% endif %}
+       
+    </div> -->
+
+    <!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+        <div class="'navbar-nav">
+          <a class="nav-item nav-link" href="{{url_for('home')}}">Home</a>
+          <a class="nav-item nav-link" href="{{url_for('add_task')}}">Add Task</a>
+          <a class="nav-item nav-link" href="{{url_for('list_task')}}">List of Task</a>
+          <a class="nav-item nav-link" href="{{url_for('del_task')}}">Delete Task</a>
+       </div>
+     </nav> -->
+
+     <h1>Welcome to the task app!</h1>
+     <h3>Please select one of the following buttons!</h3>
+{% endblock %}

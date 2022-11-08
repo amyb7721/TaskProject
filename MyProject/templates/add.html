@@ -1,0 +1,14 @@
+{% extends "base.html" %} 
+{% block body %} 
+<link rel="stylesheet" href="../static/add.css">
+<div class="jumbotron">
+    <h1>Have a task to do?</h1>
+    <h3>Add a new task here!</h3>
+    <form class="addForm" method="POST">
+        {{form.hidden_tag()}}
+        {{form.name.label}}{{form.name}}
+        {{form.submit()}}
+    </form>
+</div>
+
+{% endblock %}

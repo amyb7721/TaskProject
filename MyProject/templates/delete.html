@@ -1,0 +1,13 @@
+{% extends "base.html" %} 
+{% block body %}  
+
+    <div class="jumbotron">
+        <h1>Did you complete a task?</h1>
+        <h3>Type in the id number to remove task from the list.</h3>
+        <form class="delForm" method="POST">
+            {{form.hidden_tag()}}
+            {{form.id.label}}{{form.id}}
+            {{form.submit()}}
+        </form>
+    </div>
+{% endblock %}    
